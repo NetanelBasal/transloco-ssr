@@ -7,8 +7,8 @@ import { environment } from "../environments/environment";
 import { translocoLoader } from "./transloco.loader";
 import {
   TranslocoModule,
-  provideTranslocoConfig,
-  TRANSLOCO_CONFIG
+  TRANSLOCO_CONFIG,
+  translocoConfig
 } from "@ngneat/transloco";
 
 @NgModule({
@@ -21,12 +21,12 @@ import {
   providers: [
     {
       provide: TRANSLOCO_CONFIG,
-      useValue: {
+      useValue: translocoConfig({
         reRenderOnLangChange: true,
         availableLangs: ["en", "es"],
         defaultLang: "en",
         prodMode: environment.production
-      }
+      })
     },
     translocoLoader
   ],

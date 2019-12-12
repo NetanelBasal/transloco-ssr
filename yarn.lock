@@ -886,10 +886,10 @@
     cosmiconfig "5.2.1"
     tslib "^1.9.0"
 
-"@ngneat/transloco@2.12.0":
-  version "2.12.0"
-  resolved "https://registry.yarnpkg.com/@ngneat/transloco/-/transloco-2.12.0.tgz#e4d0c126a3eea8fee6602d7d649bebdb67a01abb"
-  integrity sha512-Hjy5TqVc6DrNnN2CKR/dhOO0fXHFVkIH3qJmlsNH1TUszfstyJuiJa7m0lgsR0O68iOaAQcJBU6XtDP7sNK5kg==
+"@ngneat/transloco@2.12.1":
+  version "2.12.1"
+  resolved "https://registry.yarnpkg.com/@ngneat/transloco/-/transloco-2.12.1.tgz#9d60668689f099e805918a0ca2a5978e6cd89876"
+  integrity sha512-0q0kshuAuG5ZmFVjKtnrFFGEPWHEky1n2lIxLrM4NnjhXjyYE13yetO7AiFTTbdLcSbpotus3MPLQTGOTZXYDw==
   dependencies:
     "@ngneat/transloco-utils" "^1.0.6"
     flat "4.1.0"
